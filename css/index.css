@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Lato:wght@400;700&display=swap");
+
+body {
+  max-width: 1024px;
+  margin: auto;
+}
+
+header .navbar-light .navbar-brand {
+  font-family: "Arizonia", cursive;
+  color: #ff6624;
+  font-size: 60px;
+  text-align: center;
+}
+
+.nav-link {
+  text-align: end;
+}
+
+@media (min-width: 768px) {
+  header .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
+
+header div .container-main h1 {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header div .container-main p {
+  font-size: 16px;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 350px;
+  height: 105px;
+}
+
+header div img {
+  display: block;
+  /* text-align: center; */
+  /* border: 1px solid transparent; */
+  border-radius: 98px;
+  margin: 0 auto;
+  box-shadow: 10px 9px 10px;
+}
+@media (min-width: 992px) {
+  header .container {
+    margin: auto;
+  }
+  header div .container-main {
+    display: flex;
+    justify-content: space-between;
+  }
+  header div .container-main h1 {
+    font-size: 2rem;
+    text-align: left;
+  }
+  header div .container-main section {
+    margin-left: 45px;
+  }
+  header div img {
+    margin-right: 45px;
+  }
+}
