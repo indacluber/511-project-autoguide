@@ -3,6 +3,7 @@
 body {
   max-width: 1024px;
   margin: auto;
+  background-color: aquamarine;
 }
 
 header .navbar-light .navbar-brand {
@@ -62,4 +63,17 @@ header div img {
   header div img {
     margin-right: 45px;
   }
+}
+main .container .action-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+main .container .action-div {
+  text-align: center;
+}
+
+.review {
+  margin: 0 auto;
+  max-width: 400px;
 }
