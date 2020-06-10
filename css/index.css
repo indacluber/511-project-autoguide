@@ -80,3 +80,49 @@ main .container .action-div {
 .d-block {
   border-radius: 28px;
 }
+
+main .container .questions {
+  text-align: center;
+}
+
+main .container form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+main .container form .car-select,
+main .container form .email-input,
+main .container form .name-input {
+  height: 40px;
+  width: 400px;
+}
+
+main .container form .massage {
+  width: 400px;
+  margin-top: 10px;
+  resize: none;
+}
+
+main .container form button {
+  width: 400px;
+  height: 40px;
+  margin-top: 10px;
+  margin: auto;
+}
+
+footer .navbar-brand {
+  font-family: "Arizonia", cursive;
+  color: #ff6624;
+  font-size: 60px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+footer .socialmedia {
+  display: flex;
+  justify-content: space-around;
+}

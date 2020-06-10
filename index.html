@@ -75,7 +75,7 @@
           <h2 class="action-title">Порядок дій</h2>
           <div class="action-div">
             <img src="img/call-pic-ph.png" alt="Подзвонив" />
-            <h3>Подзвоив</h3>
+            <h3>Подзвонив</h3>
             <p>
               Наш номер телефону Ви зможете знайти внизу даної сторінки
             </p>
@@ -113,33 +113,50 @@
               data-slide-to="0"
               class="active"
             ></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1">1</li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2">2</li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3">3</li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img
+              <div style="display: flex;">
+                <div>
+                  <h5>Вимирювання товщини лакофарбового покриття</h5>
+                  <p>
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  </p>
+                </div>
+                <div style="margin-left: 20px; border-radius: 26px;">
+                  <img
+                    style="border-radius: 26px;"
+                    src="img/asd-p-new.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <!-- <img
                 src="img/ASD-p.jpg"
                 class="d-block w-100"
                 alt="Товщина лакофарбового покриття"
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Виявлення товщини лакофарбового покриття</h5>
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
-              </div>
+              /> -->
+              <div class="carousel-caption d-none d-md-block"></div>
             </div>
             <div class="carousel-item">
-              <img
-                src="img/control-roud-km-ph-p.jpg"
-                class="d-block w-100"
-                alt="Виявлення скрученого пробігу"
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>виявлення скрученого пробігу</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div style="display: flex;">
+                <div>
+                  <h5>Виявлення скрученого пробігу</h5>
+                  <p>
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  </p>
+                </div>
+                <div style="margin-left: 20px; border-radius: 26px;">
+                  <img
+                    style="border-radius: 26px;"
+                    src="img/asd-p-new.jpg"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
             <div class="carousel-item">
@@ -154,35 +171,23 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img
-                src="img/control-roud-km-ph-p.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Fours slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div style="display: flex;">
+                <div>
+                  <h5>Виявлення скрученого пробігу</h5>
+                  <p>
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  </p>
+                </div>
+                <div style="margin-left: 20px; border-radius: 26px;">
+                  <img
+                    style="border-radius: 26px;"
+                    src="img/asd-p-new.jpg"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
           </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleCaptions"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleCaptions"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
       </section>
       <hr />
@@ -254,8 +259,80 @@
         </div>
       </section>
       <hr />
-    </main>
+      <section class="container">
+        <h2 class="action-title">Контакти</h2>
+        <p class="questions">Залишились питання?</p>
+        <form>
+          <div>
+            <label>
+              <input
+                class="name-input"
+                type="text"
+                name="name"
+                placeholder="Ваше ім'я"
+              />
+            </label>
+          </div>
+          <div>
+            <label>
+              <input
+                class="email-input"
+                type="email"
+                placeholder="Вкажіть ваш email"
+              />
+            </label>
+          </div>
+          <div>
+            <select class="car-select" name="cars" id="cars">
+              <option selected value="text1">
+                - - Вкажіть автомобіль - -
+              </option>
+              <option value="text2">Renault</option>
+              <option value="text3">Peugeot</option>
+              <option value="text4">Citroen</option>
+              <option value="text5">Mercedes</option>
+              <option value="text6">BMW</option>
+              <option value="text7">Audi</option>
+              <option value="text8">VolksWagen</option>
+              <option value="text9">Opel</option>
+              <option value="text10">Skoda</option>
+              <option value="text11">Seat</option>
+              <option value="text12">Fiat</option>
+              <option value="text13">Honda</option>
+              <option value="text14">Toyota</option>
+              <option value="text15">Acura</option>
+              <option value="text16">Lexus</option>
+              <option value="text17">Nissan</option>
+              <option value="text18">Infiniti</option>
+            </select>
+          </div>
+          <div>
+            <textarea
+              class="massage"
+              name="massage"
+              id="massage"
+              cols="30"
+              rows="10"
+              placeholder="Ваше повідомлення"
+            ></textarea>
+          </div>
 
+          <button class="submit" type="submit">Надіслати</button>
+        </form>
+      </section>
+      <hr />
+    </main>
+    <footer>
+      <h2 class="navbar-brand">AutoGuide</h2>
+      <p>Tel: <a href="tel:+380937375599">+38(093) 737 55 99</a></p>
+      <div class="socialmedia">
+        <img src="img/facebook.png" alt="facebook" />
+        <img src="img/instagram.png" alt="instagram" />
+        <img src="img/telegram.png" alt="telegram" />
+        <img src="img/viber.png" alt="viber" />
+        <img src="img/whatsapp.png" alt="" />
+      </div>
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
