@@ -77,3 +77,6 @@ main .container .action-div {
   margin: 0 auto;
   max-width: 400px;
 }
+.d-block {
+  border-radius: 28px;
+}
