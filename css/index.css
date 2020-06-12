@@ -3,13 +3,12 @@
 body {
   max-width: 1024px;
   margin: auto;
-  background-color: aquamarine;
 }
 
 header .navbar-light .navbar-brand {
   font-family: "Arizonia", cursive;
   color: #ff6624;
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -75,7 +74,7 @@ main .container .action-div {
 
 .review {
   margin: 0 auto;
-  max-width: 400px;
+  width: 250px;
 }
 .d-block {
   border-radius: 28px;
@@ -86,26 +85,26 @@ main .container .questions {
 }
 
 main .container form {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   text-align: center;
 }
 
 main .container form .car-select,
-main .container form .email-input,
-main .container form .name-input {
+main .container form .email,
+main .container form .name {
   height: 40px;
-  width: 400px;
+  width: 300px;
 }
 
 main .container form .massage {
-  width: 400px;
+  width: 300px;
   margin-top: 10px;
   resize: none;
 }
 
 main .container form button {
-  width: 400px;
+  width: 300px;
   height: 40px;
   margin-top: 10px;
   margin: auto;
@@ -125,4 +124,5 @@ footer {
 footer .socialmedia {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 20px;
 }
