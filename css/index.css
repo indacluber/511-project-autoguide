@@ -134,7 +134,7 @@ main .container .action-div {
 
 .review {
   margin: 0 auto;
-  width: 250px;
+  width: 350px;
 }
 .d-block {
   border-radius: 28px;
@@ -185,4 +185,13 @@ footer .socialmedia {
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
+}
+
+footer .container .footer .error {
+  font-size: 1.5em;
+  text-align: center;
+  color: red;
+  box-sizing: border-box;
+  width: 250px;
+  margin: auto;
 }
