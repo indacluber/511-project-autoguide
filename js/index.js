@@ -17,6 +17,5 @@ form.addEventListener("submit", (e) => {
   if (masseges.length > 0) {
     errorElement.innerText = masseges.join(", ");
     e.preventDefault();
-    console.log(masseges);
   }
 });
