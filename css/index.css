@@ -3,6 +3,7 @@
 body {
   max-width: 1024px;
   margin: auto;
+  background-color: rgb(228, 223, 248);
 }
 
 header .navbar-light .navbar-brand {
@@ -38,8 +39,6 @@ header div .container-main p {
 
 header div img {
   display: block;
-  /* text-align: center; */
-  /* border: 1px solid transparent; */
   border-radius: 98px;
   margin: 0 auto;
   box-shadow: 10px 9px 10px;
@@ -62,6 +61,50 @@ header div img {
   header div img {
     margin-right: 45px;
   }
+  .carousel-body {
+    display: flex;
+    flex-direction: row;
+  }
+  .action-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  main .container .action-div {
+    text-align: center;
+    width: 325px;
+  }
+  .carousel-pic {
+    display: block;
+    border-radius: 28px;
+    margin: auto;
+    width: 400px;
+  }
+  .carousel-body {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .carousel-text {
+    margin: auto;
+    width: 400px;
+  }
+  footer .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  footer .socialmedia {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  main .container .action-title {
+    text-align: center;
+    margin-bottom: 200px;
+  }
 }
 main .container .action-title {
   text-align: center;
@@ -70,6 +113,23 @@ main .container .action-title {
 
 main .container .action-div {
   text-align: center;
+}
+
+@media (max-width: 992px) {
+  .carousel-pic {
+    display: block;
+    border-radius: 28px;
+    margin: auto;
+  }
+  .carousel-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
+  .carousel-text {
+    margin: auto;
+  }
 }
 
 .review {
@@ -90,27 +150,27 @@ main .container form {
   text-align: center;
 }
 
-main .container form .car-select,
-main .container form .email,
-main .container form .name {
+footer .container form .car-select,
+footer .container form .email,
+footer .container form .name {
   height: 40px;
   width: 300px;
 }
 
-main .container form .massage {
+footer .container form .massage {
   width: 300px;
   margin-top: 10px;
   resize: none;
 }
 
-main .container form button {
+footer .container form button {
   width: 300px;
   height: 40px;
   margin-top: 10px;
   margin: auto;
 }
 
-footer .navbar-brand {
+footer .footer-brand {
   font-family: "Arizonia", cursive;
   color: #ff6624;
   font-size: 60px;
